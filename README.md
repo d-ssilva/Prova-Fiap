@@ -25,7 +25,7 @@
 </div>
 
 <h2 align="center">RESPONSIVIDADE (412px) 📱</h2>
-Seguindo o modelo proposto em Figma, as configurações de responsividade foram setadas minimamente a partir de **412px**, o site quebrará a partir disso.
+Seguindo o modelo proposto em Figma, as configurações de responsividade foram setadas minimamente para <b>412px</b>.
 
 <div align="center">
 <p align="center">CSS</p>
