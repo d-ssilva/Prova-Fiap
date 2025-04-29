@@ -13,9 +13,12 @@
 <!-- <h3 align="center">Apenas dois pontos serão ressaltados como um pedido para o teste básico.</h3> -->
 
 <!--<h4>1. FUNCIONAMENTO ⚙</h4>-->
-Para testa-lo, utilize o **VSCode** e a extensão <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Liveserver</a>. 
+### REQUISITOS:
+#### Para testa-lo, utilize o **VSCode** e a extensão Liveserver
+- <a href="https://code.visualstudio.com/download">VSCode</a>
+- <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Liveserver</a>
 
-**Justificativa**: Abrindo diretamente pelo *Index.html*, alguns parâmetros não funcionam devido a ausência de um <b>Servidor Local</b>:
+**Justificativa**: Abrindo diretamente pelo *Index.html*, alguns recursos, imagens, fonts etc. podem falhar ao carregar devido a ausência de um **Servidor Local**:
 <div align="center">
 <img src="Assets/documentacao/1-homepage_funcionando.png" width="33%" alt="Liveserver">
 <img src="Assets/documentacao/2-homepage_crashando.png" width="33%" alt="Index direto">
