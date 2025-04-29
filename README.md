@@ -1,54 +1,47 @@
 <h1 align="center">FIAP Avaliação </h1>
 
-<p align="center">Este repositório abriga um projeto de cunho avaliatório sobre habilidades de Front end, as técnologias utilizadas foram: </p>
+<p align="center">Projeto de cunho avaliatório sobre habilidades de Front end, as técnologias utilizadas foram: </p>
 <!-- ÍCONES -->
 <div align="center">
-    <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/html.svg" alt="html" width="35" height="35" /> 
-    <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/css.svg" alt="css" width="35" height="35" />
-    <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/javascript.svg" alt="javascript" width="35" height="35" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" title="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" title="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" title="JavaScript">    
 </div>
 <!-- ÍCONES -->
-<h2 align="center" style="margin-top:50px">UTILIZAÇÃO</h2>
-<h3 align="center">Apenas dois pontos serão ressaltados como um pedido para o teste básico.</h3>
 
-<h4>1. FUNCIONAMENTO ⚙</h4>
-- Para testa-lo, peço para que abram no <b>VSCode</b> e utilizem a extensão <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Liveserver</a>. Pois abrindo diretamente pelo <span style="color:green">Index.html</span>, alguns parâmetros não funcionam devido a ausência de um <b>Servidor Local</b>:
+## 1. FUNCIONAMENTO ⚙
+<!-- <h3 align="center">Apenas dois pontos serão ressaltados como um pedido para o teste básico.</h3> -->
 
+<!--<h4>1. FUNCIONAMENTO ⚙</h4>-->
+Para testa-lo, utilize o **VSCode** e a extensão <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Liveserver</a>. 
 
-<div style="display:flex; flex-direction:colum; justify-content: space-around; margin-top:40px; margin-bottom:50px">
-<img src="Assets/documentacao/1-homepage_funcionando.png" width="33%" style="border:2px solid green; border-radius:7px; box-shadow: 0px 0px 8px green; margin-right:20px" alt="Liveserver">
-<img src="Assets/documentacao/2-homepage_crashando.png" width="33%" style="border:2px solid red; border-radius:7px; box-shadow: 0px 0px 8px red" alt="Index direto">
+**Justificativa**: Abrindo diretamente pelo *Index.html*, alguns parâmetros não funcionam devido a ausência de um <b>Servidor Local</b>:
+<div align="center">
+<img src="Assets/documentacao/1-homepage_funcionando.png" width="33%" alt="Liveserver">
+<img src="Assets/documentacao/2-homepage_crashando.png" width="33%" alt="Index direto">
 </div>
 
+## 2. RESPONSIVIDADE (412px) 📱
+Seguindo o modelo proposto em Figma, as configurações de responsividade foram setadas minimamente a partir de **412px**, o site quebrará a partir disso.
 
----
-<h4>2. RESPONSIVIDADE 📱</h4>
-- De acordo com o modelo do Figma, as configurações de responsividade foram setadas minimamente a partir de <b style="color:#ED145B" >412px</b>, o site quebrará a partir disso.
-
-<div style="display:flex; flex-direction:row; justify-content: space-around; align-itens:center; margin-top:40px; width:100%; margin-bottom:50px">
-<div>
-<p align="center" style="font-size:20px">CSS</p>
-<img src="Assets/documentacao/3-config_responsividade.png" width="250px" height="125px" style="border:2px solid black;" alt="Liveserver">
-</div>
-<div>
-<p align="center" style="font-size:20px">Liveserver</p>
-<img src="Assets/documentacao/4-config_responsividade_screen.png" width="250px" height="125px" style="border:2px solid black;" alt="Liveserver">
-</div>
+<div align="center">
+<p align="center">CSS</p>
+<img src="Assets/documentacao/3-config_responsividade.png" width="250px" height="125px" align="center" alt="CSS">
+<p align="center">Liveserver</p>
+<img src="Assets/documentacao/4-config_responsividade_screen.png" width="250px" height="125px" align="center" alt="Liveserver">
 </div>
 
----
-<h4>3. ESTRUTURA DE ARQUIVOS</h4>
-Por conta do uso de apenas um arquivo CSS e SCRIPT.JS não vi a necessidade de criar uma pasta dedicada dentro de assets.
-
-|-- Assets/
-| |-- fonts/
-| |-- imgs/
-| |__ svg/
-|--- readme.md
-|--- index.html
-|--- style.css
-|___ script.js
-
-
+## 3. Estrutura de Arquivos
+#### Por conta do uso de apenas um arquivo CSS e SCRIPT.JS não foi necessário criar uma pasta dedicada dentro de assets.
+```bash
+.
+├── Assets/
+│   ├── fonts/
+│   ├── imgs/
+│   └── svg/
+├── index.html
+├── style.css 
+├── script.js
+└── README.md
 
 
