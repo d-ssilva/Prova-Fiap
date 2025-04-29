@@ -18,7 +18,7 @@
 - <a href="https://code.visualstudio.com/download">VSCode</a>
 - <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Liveserver</a>
 
-**Justificativa**: Abrindo diretamente pelo *Index.html*, alguns recursos, imagens, fonts etc. podem falhar ao carregar devido a ausência de um **Servidor Local**:
+**Justificativa**: Abrindo diretamente pelo *Index.html*, alguns recursos como exemplo: imagens, fonts etc. podem falhar ao carregar devido a ausência de um **Servidor Local**:
 <div align="center">
 <img src="Assets/documentacao/1-homepage_funcionando.png" width="33%" alt="Liveserver">
 <img src="Assets/documentacao/2-homepage_crashando.png" width="33%" alt="Index direto">
