@@ -9,7 +9,7 @@
 </div>
 <!-- ÍCONES -->
 
-## 1. FUNCIONAMENTO ⚙
+<h2 align="center">FUNCIONAMENTO ⚙</h2>
 <!-- <h3 align="center">Apenas dois pontos serão ressaltados como um pedido para o teste básico.</h3> -->
 
 <!--<h4>1. FUNCIONAMENTO ⚙</h4>-->
@@ -24,7 +24,7 @@
 <img src="Assets/documentacao/2-homepage_crashando.png" width="33%" alt="Index direto">
 </div>
 
-## 2. RESPONSIVIDADE (412px) 📱
+<h2 align="center">RESPONSIVIDADE (412px) 📱</h2>
 Seguindo o modelo proposto em Figma, as configurações de responsividade foram setadas minimamente a partir de **412px**, o site quebrará a partir disso.
 
 <div align="center">
@@ -34,7 +34,8 @@ Seguindo o modelo proposto em Figma, as configurações de responsividade foram 
 <img src="Assets/documentacao/4-config_responsividade_screen.png" width="250px" height="125px" align="center" alt="Liveserver">
 </div>
 
-## 3. Estrutura de Arquivos
+<h2 align="center">Estrutura de Arquivos</h2>
+   
 #### Por conta do uso de apenas um arquivo CSS e SCRIPT.JS não foi necessário criar uma pasta dedicada dentro de assets.
 ```bash
 .
